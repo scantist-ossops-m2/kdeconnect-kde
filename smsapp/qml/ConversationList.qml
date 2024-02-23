@@ -77,6 +77,7 @@ Kirigami.ScrollablePage
 
     header: Kirigami.InlineMessage {
         Layout.fillWidth: true
+        position: Kirigami.InlineMessage.Header
         visible: page.initialMessage.length > 0
         text: i18nd("kdeconnect-sms", "Choose recipient")
 
